@@ -30,6 +30,9 @@
             android:exported="false">
 
         </activity>
+        <activity android:name=".Home" />
+        <activity android:name=".MainMaladies" />
+        <activity android:name=".MaladieDetailled" />
     </application>
 
 </manifest>

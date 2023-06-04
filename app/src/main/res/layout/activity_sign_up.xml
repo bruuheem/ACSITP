@@ -6,19 +6,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/img2"
+
     tools:context=".SignUp">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="122dp"
+            android:src="@drawable/e_1_"
+            android:layout_marginTop="50dp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="300dp"
+            android:layout_marginTop="50dp"
             android:padding="20dp">
 
             <EditText
@@ -68,7 +73,7 @@
                 android:textSize="18sp"
                 android:layout_marginTop="30dp"
                 app:cornerRadius = "30dp"/>
-            
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -78,7 +83,7 @@
                 android:padding="8dp"
                 android:textSize="18sp"
                 android:layout_marginTop="8dp"
-                android:textColor="@color/mine2"/>
+                android:textColor="@color/main"/>
 
         </LinearLayout>
 
